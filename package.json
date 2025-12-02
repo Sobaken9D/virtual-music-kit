@@ -1,0 +1,36 @@
+{
+  "name": "virtual-music-kit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "webpack --mode development",
+    "start": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sobaken9D/virtual-music-kit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sobaken9D/virtual-music-kit/issues"
+  },
+  "homepage": "https://github.com/Sobaken9D/virtual-music-kit#readme",
+  "description": "",
+  "devDependencies": {
+    "copy-webpack-plugin": "^13.0.1",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.5",
+    "mini-css-extract-plugin": "^2.9.4",
+    "sass": "^1.94.2",
+    "sass-loader": "^16.0.6",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.103.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
